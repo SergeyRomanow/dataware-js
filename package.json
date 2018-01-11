@@ -1,0 +1,25 @@
+{
+  "name": "rsl-dwf-js-app",
+  "author": "Sergey L. Romanow <sergey.l.romanow@gmail.com>",
+  "homepage": "http://Sergey.Romanow.name",
+  "license": "MIT",
+  "version": "0.0.0",
+  "description": "RSL Dataware JS Application",
+  "private": true,
+  "main": "public/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SergeyRomanow/dataware-js"
+  },
+  "scripts": {
+    "build-dev": "webpack --config webpack.config.dev.js",
+    "server": "webpack-dev-server",
+    "build": "webpack",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.0"
+  }
+}
